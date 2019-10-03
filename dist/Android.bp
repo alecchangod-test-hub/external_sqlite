@@ -43,6 +43,7 @@ cc_defaults {
         "-DSQLITE_LIKE_DOESNT_MATCH_BLOBS",
         "-DSQLITE_DEFAULT_LEGACY_ALTER_TABLE",
         "-Wno-unused-parameter",
+        "-Wno-string-plus-int",
         "-Werror",
 
         // Default value causes sqlite3_open_v2 to return error if DB is missing.
